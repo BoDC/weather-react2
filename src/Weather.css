@@ -27,6 +27,7 @@
 
 .Weather p {
     margin-left: 10px;
+    line-height: 10px;
     
 }
 
@@ -34,17 +35,13 @@
     font-size: 20px;
 }
 
-.Weather ul {
-    position: relative;
-    margin-left: 30px;
-   
-}
+
 
 .Weather li {
     list-style: none;
-    line-height: 30px;
-    position: relative;
     font-size: 15px;
+     margin-top: 15px;
+
 
 }
 
@@ -55,7 +52,7 @@
 }
 
 .fa-sun {
-    font-size: 15px;
+    font-size: 17px;
     position: relative;
     top: -45px;
     
