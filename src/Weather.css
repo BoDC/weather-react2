@@ -51,10 +51,9 @@
     margin-left: 30px;
 }
 
-.fa-sun {
+.float-left {
     font-size: 17px;
     position: relative;
-    top: -45px;
-    
-}
+    top: -10px;
+    }
 
