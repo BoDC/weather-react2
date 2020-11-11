@@ -8,7 +8,7 @@ function App() {
       <div className="container">
       
      
-     <Weather defaultCity="San Fransisco" />
+     <Weather defaultCity="San Francisco" />
        </div>
        </div>
   );
