@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import WeatherForecast from "./WeatherForecast";
 import WeatherTemp from "./WeatherTemp";
 import axios from "axios";
 import "./Weather.css"
@@ -43,16 +43,16 @@ function changeCity(event) {
          <form onSubmit={handleSubmit}>
             <input
             type="search"
-            placeholder="Search city"
+            placeholder="Enter a city"
             autocomplete="off"
             Class= "zoeken"
             onChange={changeCity}
           />
-          <input type="submit" value="Enter" className="btn btn-secondary btn-sm"  />
+          <input type="submit" value="Search" className="btn btn-secondary btn-sm"  />
           </form>
 
           <WeatherTemp data={weatherData}/>
-
+          <WeatherForecast city={weatherData.city}/>
     </div>
         );
 

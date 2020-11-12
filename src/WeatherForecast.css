@@ -1,0 +1,19 @@
+.WeatherForecast {
+    position: relative;
+    top: -50px;
+    margin-left: 1px;
+    margin-right: 1px;
+   
+    padding: 10px;
+    background-color: white;
+    color: #555555;
+    font-family: 'Yantramanav', sans-serif;
+ 
+    
+}
+
+
+
+.WeatherForecast canvas {
+    display: block;
+  }

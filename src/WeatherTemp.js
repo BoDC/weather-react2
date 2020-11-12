@@ -12,13 +12,15 @@ export default function WeatherTemp(props) {
     
                <div className="row"> 
                <div className="col-5">
+                
                  <WeatherUnit celsius={props.data.temperature} /> 
                 
-                 <br />
+                  <br />
 
                  <div className="float-left">
                  <WeatherIcon code={props.data.icon} />
                  <i className="info"> {props.data.description}</i>
+                 
                  </div>
                </div>
     
