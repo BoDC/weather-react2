@@ -6,9 +6,9 @@ import "./Weather.css"
 
 export default function Weather(props) {
 const [city, setCity] = useState(props.defaultCity);
- const [weatherData, setWeatherData] = useState({ ready: false });
+const [weatherData, setWeatherData] = useState({ ready: false });
+
  function handleResponse(response) {
-    
     setWeatherData({
     ready: true,
     temperature: response.data.main.temp,
@@ -18,11 +18,11 @@ const [city, setCity] = useState(props.defaultCity);
     city: response.data.name,
     date: new Date(response.data.dt * 1000),
     icon: response.data.weather[0].icon,
-    })
+    });
 }
 
 function search() {
-    const apiKey = "84f9934b2b326e36e6485d8b518ae65b";
+    const apiKey = "85495f1b2ff0528cdd21810a2c5888e7";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse); 
 }
