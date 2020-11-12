@@ -10,8 +10,7 @@ function App() {
      
      <Weather defaultCity="San Francisco" />
      <footer>
-     <i class="fab fa-github"></i>
-     <a href="https://github.com/BoDC/weather-react" target= "_blank" rel="noreferrer">Open-source code </a>
+     <i class="fab fa-github"></i>  <a href="https://github.com/BoDC/weather-react" target= "_blank" rel="noreferrer">Open-source code </a>
       by Bo
    </footer>
        </div>
