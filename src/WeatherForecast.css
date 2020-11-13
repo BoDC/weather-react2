@@ -1,16 +1,21 @@
 .WeatherForecast {
     position: relative;
-    top: -60px;
+    top: -90px;
     margin-left: 10px;
     margin-right: 10px;
    border-radius: 5px;
-    background-color: white;
-    color: #555555;
+   background-color: white;
     font-family: 'Yantramanav', sans-serif;
  }
 
+ .tijd {
+   font-weight: bold;
+  
+}
 
- .WeatherForecast canvas {
-    display: block;
-  }
+.nummer {
+   font-size: 15px;
+}
+
+
 

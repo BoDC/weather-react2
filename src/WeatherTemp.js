@@ -12,7 +12,7 @@ export default function WeatherTemp(props) {
     
                <div className="row"> 
                <div className="col-5">
-                
+              
                  <WeatherUnit celsius={props.data.temperature} /> 
                 
                   <br />
@@ -28,14 +28,14 @@ export default function WeatherTemp(props) {
                    <ul>
                     <li>
               <i className="fas fa-wind"></i>
-              <span>  {props.data.wind} </span>
+              <span> {props.data.wind} </span>
               km/h
             </li>
            
             <li>
               <i className="fas fa-tint"></i>
 
-              <span>   {props.data.humidity}</span>%
+              <span>    {props.data.humidity}</span>%
             </li>
                    </ul>
                </div>
